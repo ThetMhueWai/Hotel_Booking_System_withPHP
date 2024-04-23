@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/osaka.jpg") center/cover no-repeat;
+}
+.product-small-img img{
+    height: 92px;
+    margin: 15px 5px;
+    cursor: pointer;
+    display: block;
+    border: 2px solid #fff;
+    opacity: 0.7;
+    box-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+.product-small-img{
+    float: left;
+}
+.product{
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%,-50%);
+    position: absolute;
+    width: 41%; 
+    background-color: transparent;
+    z-index: 1;
+    padding: 1px 10px;
+}
+.img-container img{
+    height: 400px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.img-container{
+    float: right;
+    padding: 10px;
+}
+.info{
+    border: 1px solid #fff;
+    margin-left: 700px;
+    margin-top: 20px;
+    width: 40%;
+    background-color: transparent;
+    z-index: 1;
+    padding: 35px 80px;
+    box-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.shoeName{
+    padding: 0 0 10px 0;
+}
+
+.shoeName div{
+    display: flex;
+    align-items: center;
+}
+.shoeName div .big ul li{
+    text-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.shoeName div .big{
+    margin-right: 10px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.7;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.shoeName .small{
+    color: #fff;
+    margin-top: 3px;
+    text-transform: capitalize;
+    color:white;
+    font-size:25px;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.hd h3{
+    color: #fff;
+    display:block;margin-top:100px; 
+    margin-left:880px; 
+    font-family: 'Big Shoulders Stencil Text', cursive; 
+    font-size:50px;
+    letter-spacing: 1px;
+    filter: blur(.6px);
+    text-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.buy-price{
+    padding-top: 15px;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101),
+                0 0 16px rgb(236, 101, 101);
+}
+.price h1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1;
+}
+.buy{
+    margin-right: 200px;
+    padding: .1rem 5rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: .5s;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px rgb(236, 101, 101),
+                0 0 2px rgb(236, 101, 101),
+                0 0 4px rgb(236, 101, 101),
+                0 0 8px rgb(236, 101, 101);
+}
+
+.buy:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 490px){
+
+    .shoeName div .big{
+        font-size: 1.3rem;
+    }
+
+    .small{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: .9rem;
+    }
+    .buy{
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+
+    .price h1{
+        font-size: 1.5rem;
+    }
+
+    .price i{
+        font-size: .9rem;
+    }
+    .info{
+        padding: 20px;
+    }
+}
+@media (max-width: 400px){
+    .buy i{
+        display: none;
+    }
+
+    .container{
+        padding: 20px;
+    }
+}

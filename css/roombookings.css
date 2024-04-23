@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/roombookingbg.jpg") center/cover no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.banner .back img{
+    width: 50px;
+    margin-right: 1250px;
+    margin-top: -40px;
+    display: inline-block;
+    position: relative;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 460px 10px;
+}
+.banner h2{
+    color: #fff;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    filter: blur(.6px);
+    font-weight: 100;
+    text-shadow: 0 0 1px rgba(231, 219, 115, 0.979),
+                0 0 2px rgba(231, 219, 115, 0.979),
+                0 0 4px rgba(231, 219, 115, 0.979),
+                0 0 8px rgba(231, 219, 115, 0.979),
+                0 0 16px rgba(231, 219, 115, 0.979);
+}
+.card-content{
+    background: transparent;
+    height: 360px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px rgba(231, 219, 115, 0.979),
+                0 0 2px rgba(231, 219, 115, 0.979),
+                0 0 4px rgba(231, 219, 115, 0.979),
+                0 0 8px rgba(231, 219, 115, 0.979); 
+}
+.card-content h3{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 100;
+    text-shadow: 0 0 10px rgba(231, 219, 115, 0.979),
+                0 0 20px rgba(231, 219, 115, 0.979),
+                0 0 40px rgba(231, 219, 115, 0.979),
+                0 0 80px rgba(231, 219, 115, 0.979),
+                0 0 160px rgba(231, 219, 115, 0.979);
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: white;
+    background-color: transparent;
+    text-shadow: 0 0 1px rgba(231, 219, 115, 0.979),
+                0 0 2px rgba(231, 219, 115, 0.979),
+                0 0 4px rgba(231, 219, 115, 0.979),
+                0 0 8px rgba(231, 219, 115, 0.979),
+                0 0 16px rgba(231, 219, 115, 0.979);
+}
+form input[type = submit]{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(231, 219, 115, 0.979),
+                0 0 20px rgba(231, 219, 115, 0.979),
+                0 0 40px rgba(231, 219, 115, 0.979),
+                0 0 80px rgba(231, 219, 115, 0.979),
+                0 0 160px rgba(231, 219, 115, 0.979);
+}
+form input[type = submit]:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-weight: 100;
+    text-shadow: 0 0 10px rgba(231, 219, 115, 0.979),
+                0 0 20px rgba(231, 219, 115, 0.979),
+                0 0 40px rgba(231, 219, 115, 0.979),
+                0 0 80px rgba(231, 219, 115, 0.979),
+                0 0 160px rgba(231, 219, 115, 0.979);
+    box-shadow: 0 0 1px rgba(231, 219, 115, 0.979),
+                0 0 2px rgba(231, 219, 115, 0.979),
+                0 0 4px rgba(231, 219, 115, 0.979);               
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}

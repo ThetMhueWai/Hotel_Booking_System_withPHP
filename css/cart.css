@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../photo/roombookbg1.jpeg") center/cover no-repeat;
+}
+.Top{
+    margin-top: -50px;
+    width: 800px;
+    padding: 20px 50px;
+    margin-left: 300px;
+}
+.book h2{
+    letter-spacing: 2px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: #fff;
+    margin-left: 200px;
+    font-size: 50px;
+    filter: blur(.6px);
+    text-shadow: 0 0 1px rgba(106, 203, 241, 0.877),
+                0 0 2px rgba(106, 203, 241, 0.877),
+                0 0 4px rgba(106, 203, 241, 0.877),
+                0 0 8px rgba(106, 203, 241, 0.877),
+                0 0 16px rgba(106, 203, 241, 0.877);
+}
+table{
+    width: 1200px;
+    margin-left: -240px;
+    height: 200px;
+}
+table tr th{
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 1px rgba(122, 241, 106, 0.877),
+                0 0 2px rgba(122, 241, 106, 0.877),
+                0 0 4px rgba(122, 241, 106, 0.877),
+                0 0 8px rgba(122, 241, 106, 0.877),
+                0 0 16px rgba(122, 241, 106, 0.877);
+}
+table tr td{
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 1px rgba(106, 203, 241, 0.877),
+                0 0 2px rgba(106, 203, 241, 0.877),
+                0 0 4px rgba(106, 203, 241, 0.877),
+                0 0 8px rgba(106, 203, 241, 0.877),
+                0 0 16px rgba(106, 203, 241, 0.877);
+}
+form{
+    margin-top: 20px;
+    margin-left: -260px;
+}
+form input[type = submit]{
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: transparent;
+    text-shadow: 0 0 1px rgba(106, 203, 241, 0.877),
+                0 0 2px rgba(106, 203, 241, 0.877),
+                0 0 4px rgba(106, 203, 241, 0.877),
+                0 0 8px rgba(106, 203, 241, 0.877),
+                0 0 16px rgba(106, 203, 241, 0.877);
+    box-shadow: 0 0 1px rgba(122, 241, 106, 0.877),
+                0 0 2px rgba(122, 241, 106, 0.877),
+                0 0 4px rgba(122, 241, 106, 0.877),
+                0 0 8px rgba(122, 241, 106, 0.877);
+}
+form input[type = submit]:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.back img{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+}

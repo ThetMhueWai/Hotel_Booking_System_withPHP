@@ -1,0 +1,123 @@
+.R1{
+    border: 2px solid #000;
+}
+#R1{
+    margin:0;
+    padding:0;
+    font-size: 50px;
+    color: rgb(104, 0, 0);
+}
+
+
+#R2{
+    padding-top: 20px;
+    color: rgb(104, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+
+#R3{
+    background: rgb(0,0,0,0.7);
+    border: none;
+    width: 45vh;
+    height: 6vh;
+    border-radius: 7px;
+    color: rgb(104, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid skyblue;
+    cursor: pointer;
+}
+
+#R4{
+    border: none;
+    color: pink;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgb(0,0,0,0.7);
+    width: 45vh;
+    height: 6vh;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+#R4:hover{
+    border: none;
+    color: gold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgb(0,0,0,0.8);
+    width: 45vh;
+    height: 6vh;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+}
+
+#R5{
+    text-align: center;
+    font-size: 25px;
+}
+
+#R6{
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(37, 37, 37);
+    width: 20vh;
+    height: 5vh;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+#R6:hover{
+    border: none;
+    color: gold;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(32, 30, 30);
+    width: 20vh;
+    height: 5vh;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+}
+
+#R7{
+    background: rgb(37, 37, 37);
+    border: none;
+    width: 60vh;
+    height: 6vh;
+    border-radius: 7px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid skyblue;
+    cursor: pointer;
+}
+
+#R8{
+    border: none;
+    color: rgb(35, 0, 90);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#R8:hover{
+    border: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width:0;
+  }

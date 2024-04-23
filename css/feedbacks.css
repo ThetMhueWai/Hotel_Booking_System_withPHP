@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/feed3.jpg") center/cover no-repeat;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	/* margin-top: 50px; */
+}
+.back img{
+    width: 50px;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: -70px;
+    display: inline-block;
+    position: relative;
+}
+#editor {
+	margin-top: 20px;
+	color: #fff;
+	max-height: 250px;
+	height: 250px;
+	background-color:rgba(0, 0, 0, 0.219);
+	border-collapse: separate; 
+	border: 1px solid #fff; 
+	padding: 20px; 
+	box-sizing: content-box; 
+	overflow: auto;
+	outline: none;
+	text-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712),
+				0 0 16px rgba(240, 9, 9, 0.712);
+	box-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712),
+				0 0 16px rgba(240, 9, 9, 0.712);
+}
+form input[type=text]{
+	margin-top: 20px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 8px 20px;
+	text-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712),
+				0 0 16px rgba(240, 9, 9, 0.712);
+	box-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712),
+				0 0 16px rgba(240, 9, 9, 0.712);
+}
+input[type=submit]{
+	margin-top: 10px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 8px 20px;
+}
+
+input[type=submit]:hover{
+	text-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712),
+				0 0 16px rgba(240, 9, 9, 0.712);
+	box-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712);
+}
+
+#voiceBtn{
+	width: 20px;
+	color: transparent;
+	background-color: transparent;
+	transform: scale(2.0, 2.0);
+	-webkit-transform: scale(2.0, 2.0);
+	-moz-transform: scale(2.0, 2.0);
+	border: transparent;
+	cursor: pointer;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+div[data-role="editor-toolbar"] {
+	margin-top: 100px;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+}
+
+.dropdown-menu a {
+  	cursor: pointer;
+}
+a i{
+	color: #fff;
+	text-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712),
+				0 0 16px rgba(240, 9, 9, 0.712);
+}
+.btn-group .btn{
+	background: transparent;
+	border: 1px solid #fff;
+	box-shadow: 0 0 1px rgba(240, 9, 9, 0.712),
+                0 0 2px rgba(240, 9, 9, 0.712),
+                0 0 4px rgba(240, 9, 9, 0.712),
+                0 0 8px rgba(240, 9, 9, 0.712);	
+}
+.btn-group .btn:hover{
+	background-color: transparent;	
+}
+.back img{
+    width: 50px;
+    margin-right: 1250px;
+    display: inline-block;
+    position: relative;
+}
